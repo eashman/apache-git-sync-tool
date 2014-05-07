@@ -24,6 +24,9 @@ mirroring repositories and not for use with real working copy.
 3. Test.
 4. Setup WebHook notifications.
 
+__Note:__ Tested with _git 1.7.10.4_.
+
+
 Setup ssh access to github for the apache user
 ----------------
 
@@ -150,8 +153,8 @@ Go to project *Settings -> Service Hooks -> WebHook URLs* and add your url to th
 
 Authors
 ---------
-Krum Stoilov - original author  
-Borislav Peev - ideas, testing, improvements (borislav.asdf at gmail dot com)
+Krum Stoilov - original implementation  
+Borislav Peev (borislav.asdf at gmail dot com)
 
 #### Credits
 https://gist.github.com/oodavid/1809044
